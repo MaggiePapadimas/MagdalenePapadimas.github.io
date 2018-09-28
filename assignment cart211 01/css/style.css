@@ -1,0 +1,123 @@
+/* === CSS RESET === */
+* {
+  margin:0px 50px 0;
+  padding:0 -10px 0;
+
+}
+html {
+  background-color: black;
+}
+body {
+      background-color: #404142;
+}
+body, html {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*.transparent-style{
+  background-color: #ffffff;
+  opacity: .4;
+}
+*/
+
+/* === NAV HERE === */
+nav {
+  background-color: #404142;
+  position: static;
+  text-align: center;
+}
+
+a:link {
+  display:inline-block;
+  color:black;
+  padding: 10px 20px;
+  text-decoration: underline;
+  font-size: 18px;
+  text-transform: capitalize;
+
+}
+a:visited {
+  color:crimson;
+  text-decoration: none;
+
+}
+a:hover {
+  color: darkblue;
+  background-color: #eee;
+  text-decoration: none;
+}
+a:active {
+  color:white;
+  background-color: #404142;
+
+/* === Header Stuff */
+
+}
+header {
+    background-color: #404142;
+}
+
+header h1 {
+    font-size: 52px;
+    text-transform: capitalize;
+}
+
+header h2 {
+    font-family: Georgia, "serif";
+    text-transform: capitalize;
+
+}
+/* === Article Stuff */
+#index-image {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/6.jpg");
+  background-size: cover;
+  position:center;
+  background-repeat: no-repeat;
+  top:100px;
+  bottom:50px;
+  width: 1150px;
+  height: 500px;
+}
+#hero-text{
+    position:relative;
+    top:200px;
+    color: white;
+}
+#readings-image {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/readings.jpg");
+  background-size: cover;
+  position: center;
+  background-repeat: no-repeat;
+  top:100px;
+  bottom:50px;
+  width: 1150px;
+  height: 500px;
+}
+/* === Article Stuff */
+
+article {
+margin:0;
+padding:0;
+
+}
+
+article h1 {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+article p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+/* === Footer Stuff */
+footer {
+  padding-top: 100px;
+  font-family: Georgia, "serif";
+  font-style: italic;
+  text-align: center;
+}
